@@ -1,0 +1,55 @@
+--================================================================================--
+--[[ CONFIGURATION ]]--
+--================================================================================--
+local Config = {
+    -- Main Settings
+    HubName = "Luminous Hub",
+    Subtitle = "Public Version",
+    LogoLetter = "L",
+    ImageLogo = "",
+    LoadTime = 3,
+
+    ScriptToLoad = loadstring(game:HttpGet("https://pastefy.app/BFL48joO/raw"))(),
+
+    Messages = {
+        "Connecting...",
+        "Authenticating...",
+        "Downloading assets...",
+        "Configuring environment...",
+        "Building interface...",
+        "Finalizing..."
+    },
+    Tips = {
+        "Did you know? You can customize the settings in the hub.",
+        "Check out our community for support and updates!",
+        "New features are added regularly!"
+    },
+
+    Sounds = {
+        Open = "rbxassetid/913363037",
+        Update = "rbxassetid/6823769213",
+        Success = "rbxassetid/10895847421",
+        Failure = "rbxassetid/142642633",
+        TipPing = "rbxassetid/5151558373"
+    },
+
+    IntroAnimationTime = 0.6,
+    OutroAnimationTime = 0.5,
+
+    Theme = {
+        Primary = Color3.fromRGB(170, 70, 255),
+        Background = Color3.fromRGB(20, 20, 30),
+        BackgroundGradient = Color3.fromRGB(35, 35, 50),
+        Text = Color3.fromRGB(255, 255, 255),
+        MutedText = Color3.fromRGB(120, 125, 135),
+        ProgressBackground = Color3.fromRGB(30, 32, 38),
+        Failure = Color3.fromRGB(255, 80, 80),
+        SuccessFlash = Color3.fromRGB(255, 255, 255)
+    },
+
+    Fonts = {
+        Main = Enum.Font.GothamBold,
+        Secondary = Enum.Font.Gotham,
+        Code = Enum.Font.Code
+    }
+}
