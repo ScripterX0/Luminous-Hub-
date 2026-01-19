@@ -16,7 +16,7 @@ local Config = {
     ImageLogo = "", -- Paste your decal ID here. Leave blank for letter.
     LoadTime = 3,
 
-    ScriptToLoad = "("https://pastefy.app/BFL48joO/raw"))()",
+    ScriptToLoad = "loadstring(game:HttpGet("https://pastefy.app/BFL48joO/raw"))()",
 
     -- Loading Messages & Tips displayed randomly
     Messages = {
